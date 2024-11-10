@@ -54,5 +54,5 @@ for (i in 1:3) {
 for (i in 1:6) {
   png(paste0(plot_names[i], ".png"), width = 2200, height = 2400, res = 300)
   print(plots[[i]])  # Print the individual plot
-  dev.off()
+  dev.off() # Close the PNG file
 }
